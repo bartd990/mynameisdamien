@@ -9,7 +9,7 @@ turtle.speed(10)
 for counter in range(9000):
     TurtlePen.pencolor("red")
     TurtlePen.forward(counter)
-    TurtlePen.left(90)
+    TurtlePen.left(145)
     if(counter > 50):
         TurtlePen.pensize(15)
         Window.bgcolor("blue")
