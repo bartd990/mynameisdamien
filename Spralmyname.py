@@ -23,4 +23,4 @@ for counter in range(100):
     # else:
     #     TurtlePen.pensize(20)
     #     Window.bgcolor("white")
-    
+    9
