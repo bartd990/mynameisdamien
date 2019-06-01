@@ -18,6 +18,6 @@ for colorCounter in range(360):
     # changes the size to match the number of sides
     T.forward(colorCounter*3 / sides+colorCounter)
     # turn 360 / sides + 1 degrees
-    T.left(360 / sides + 1)
+    T.right(360 / sides + 1)
     # make pen larger as it goes outside
     T.width(colorCounter * sides / 200)
