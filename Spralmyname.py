@@ -12,7 +12,7 @@ for counter in range(100):
     TurtlePen.penup()
     TurtlePen.forward(counter*4)
     TurtlePen.pendown()
-    TurtlePen.write(your_name, font=("Edwardian Script ITC Regular", int((counter+4)/4), "bold"))
+    TurtlePen.write(your_name, font=("Kunstler Script", int((counter+4)/4), "bold"))
     TurtlePen.left(145)
     # Last prodgect
     # TurtlePen.forward(counter)
