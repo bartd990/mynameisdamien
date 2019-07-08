@@ -7,7 +7,7 @@ class PizzaCalculator:
     meat_lovers_price = input("What is the price of a meat lovers pizza tonight? $")
     meat_lovers_price = eval(meat_lovers_price)
     # 2. ask costomer: which pizzas do they want?
-    number_of_pepperonies = 0
+    pnumber_of_pepperonies = 0
     number_of_hawaiians = 0
     number_of_meat_lovers = 0
     pizzas_selected = input("Customer, which pizzas do you want to order? (1. pepperoni, 2.hawaiian, 3.meat lover's)")
