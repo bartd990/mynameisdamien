@@ -3,3 +3,9 @@ from kivy.properties import ObjectProperty
 from kivy.uix.screenmanager import ScreenManager
 from kivy.core.window import Window
 from ManagerScreen import ManagerScreen
+from WelcomeScreen import WelcomeScreen
+from CostomerScreen import CostomerScreen
+
+class PizzaCalculatorApp(App):
+    screen_manager = ScreenManager()
+    
