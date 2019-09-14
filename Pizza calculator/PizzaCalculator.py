@@ -30,6 +30,6 @@ class PizzaCalculator:
     total_order = pepperoni_order + hawiian_order + meat_lovers_order
     print("Here's your order before tax: ", total_order)
     # 4. calculate tax
-    
+    tax_rate = .0775
     # 5. grand total caculates
     
