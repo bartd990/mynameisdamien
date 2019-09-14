@@ -31,5 +31,9 @@ class PizzaCalculator:
     print("Here's your order before tax: ", total_order)
     # 4. calculate tax
     tax_rate = .0775
+    sales_tax_amount = total_order * tax_rate
+    print("Your sales tax amounts to ",sales_tax_amount, " at ",str(tax_rate))
     # 5. grand total caculates
+    grand_total = total_order + sales_tax_amount
+    print("your grand total comes to ", grand_total)
     
