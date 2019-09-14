@@ -8,4 +8,7 @@ from CostomerScreen import CostomerScreen
 
 class PizzaCalculatorApp(App):
     screen_manager = ScreenManager()
-    
+    def build(self):
+        self.title = "Bart's Pizzeria"
+        Window.size = (1200, 600)
+        
